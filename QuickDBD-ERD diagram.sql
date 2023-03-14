@@ -2,7 +2,7 @@
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/YM9vlo
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
--- Modify this code to create the crowfunding schema diagram.
+-- Modify to create the crowfunding schema diagram.
 
 CREATE TABLE "Campaign" (
     "cf-id" INTEGER   NOT NULL,
@@ -22,9 +22,6 @@ CREATE TABLE "Campaign" (
     CONSTRAINT "pk_Campaign" PRIMARY KEY (
         "cf-id"
      )
-  FOREIGN KEY (contact_id) REFERENCES Contacts(contact_id),
-  FOREIGN KEY (category_id) REFERENCES Category(category_id),
-  FOREIGN KEY (subcategory_id) REFERENCES Subcategory(subcategory_id) 
 );
 
 CREATE TABLE "Contacts" (
@@ -52,5 +49,14 @@ CREATE TABLE "Subcategory" (
     CONSTRAINT "pk_Subcategory" PRIMARY KEY (
         "subcategory-id"
      )
-  );
+);
+
+ALTER TABLE "Contacts" ADD CONSTRAINT "fk_Contacts_contact-id" FOREIGN KEY("contact-id")
+REFERENCES "Campaign" ("contact_id");
+
+ALTER TABLE "Category" ADD CONSTRAINT "fk_Category_category-id" FOREIGN KEY("category-id")
+REFERENCES "Campaign" ("category_id");
+
+ALTER TABLE "Subcategory" ADD CONSTRAINT "fk_Subcategory_subcategory-id" FOREIGN KEY("subcategory-id")
+REFERENCES "Campaign" ("subcategory_id");
 
