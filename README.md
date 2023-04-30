@@ -13,7 +13,7 @@ This project is divided into the following subsections:
 * Create the Category and Subcategory DataFrames
 * Create the Campaign DataFrame
 * Create the Contacts DataFrame
-* Sketch the ERD and create the Postgres Database
+* Sketch the ERD diagram and create the Postgres Database
 * Import the CSV files into corresponding SQL tables
 
 ![ERD diagram](https://github.com/wei3chen2/Mini-ETL-Project-/blob/main/ERD%20diagram%20(2).png)
