@@ -1,5 +1,5 @@
 # Mini-ETL-Project-CrowdFunding
-
+![Crowdfunding](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aflamnah.com%2Far%2F&psig=AOvVaw3DMaAMaJigZmaMqUSU2WL5&ust=1685335361940000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOje59OZl_8CFQAAAAAdAAAAABAE))
 ## Overview
 
 This project aims to utilize ETL process to prepare, explore and analyze crowd funding data in a more consolidated view, which can drive better decision making in future.
