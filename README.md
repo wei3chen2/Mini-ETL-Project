@@ -18,7 +18,7 @@ This project is divided into the following subsections:
 
 ![ERD diagram](https://github.com/wei3chen2/Mini-ETL-Project-/blob/main/ERD%20diagram%20(2).png)
 
-Data Resources
+### Data Resources
 
  *  contacts.xlsx
  *  crowdfunding.xlsx
