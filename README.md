@@ -1,5 +1,5 @@
 # Mini-ETL-Project-CrowdFunding
-![Crowd-Funding](https://github.com/wei3chen2/Mini-ETL-Project-/blob/main/ERD%20diagram%20(2).png)
+![Crowd-Funding](https://github.com/wei3chen2/Mini-ETL-Project/blob/main/Crowd-Funding.jpg)
 ## Overview
 
 This project aims to utilize ETL process to prepare, explore and analyze crowd funding data in a more consolidated view, which can drive better decision making in future.
